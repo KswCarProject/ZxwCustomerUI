@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/btnOriginalCar" android:layout_width="0dp" android:layout_height="0dp" android:src="@drawable/gt6_audi_original_car"/>
+    <ImageView android:id="@+id/btnOriginalCar_frame" android:background="@drawable/gt6_audi_waibushurukuang_2" android:visibility="gone" android:layout_width="0dp" android:layout_height="@dimen/gt6_audi_launcher_icon_text_height" android:layout_alignTop="@+id/btnOriginalCar_tv" android:layout_alignBottom="@+id/btnOriginalCar_tv" android:layout_alignStart="@+id/btnOriginalCar_tv" android:layout_alignEnd="@+id/btnOriginalCar_tv"/>
+    <TextView android:textSize="18sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/btnOriginalCar_tv" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="@dimen/gt6_audi_launcher_icon_text_height" android:text="@string/lb_left_car" android:layout_alignTop="@+id/btnOriginalCar"/>
+</RelativeLayout>

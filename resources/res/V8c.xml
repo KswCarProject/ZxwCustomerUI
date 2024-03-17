@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@+id/LayoutItemContent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/IvFocus" android:background="@drawable/chk_applist_focus" android:visibility="visible" android:layout_width="122dp" android:layout_height="112dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/IvIcon" android:layout_width="72dp" android:layout_height="72dp" android:layout_marginTop="8dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="16sp" android:textColor="#fff" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/TvName" android:padding="2dp" android:layout_width="106dp" android:layout_height="wrap_content" android:layout_marginTop="82dp" android:layout_marginBottom="5dp" android:lines="1" android:layout_centerHorizontal="true" android:textAllCaps="false"/>
+    </RelativeLayout>
+</RelativeLayout>

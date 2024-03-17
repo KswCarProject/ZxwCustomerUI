@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <ImageView android:background="@drawable/common_gs_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.szchoiceway.customerui.views.MyViewPager android:id="@+id/mPager" android:layout_width="wrap_content" android:layout_height="414dp" android:layout_marginStart="2dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <ImageButton android:id="@+id/btnDirectionLeft" android:background="@drawable/common_gs_btn_page_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="207dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <ImageButton android:id="@+id/btnDirectionRight" android:background="@drawable/common_gs_btn_page_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="207dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

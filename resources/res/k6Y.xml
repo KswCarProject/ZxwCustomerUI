@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/LayoutRecyclerViewRoot" android:background="@drawable/id8_main_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@+id/leftR" android:visibility="gone" android:layout_width="130dp" android:layout_height="match_parent">
+        <View android:id="@+id/imgLeftBk" android:background="@drawable/id8_main_left_bg" android:layout_width="130dp" android:layout_height="480dp"/>
+        <com.szchoiceway.zxwlib.focus.view.FocusIconWithTitleView android:id="@+id/btnE" android:layout_width="121dp" android:layout_height="82dp" android:layout_marginTop="62dp" android:layout_centerVertical="true" app:icon="@drawable/id8_main_left_icon_app" app:iconHeight="29dp" app:iconMarginTop="10dp" app:iconWidth="29dp" app:imgForeground="@drawable/bmw_id8_left_btn_forground" app:titleText="@string/lbl_applist" app:titleTextHeight="20dp" app:titleTextMarginBottom="43dp" app:titleTextSize="11sp" app:titleTextWidth="121dp"/>
+        <View android:background="@drawable/id8_settings_system_left" android:layout_width="21dp" android:layout_height="31dp" android:layout_centerVertical="true" android:layout_marginStart="100dp"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toEndOf="@+id/leftR">
+        <View android:id="@+id/VActionBar" android:layout_width="match_parent" android:layout_height="58dp"/>
+        <com.szchoiceway.customerui.bmw.recycle.BMWAppListFocusRecycleView android:id="@+id/app_listview" android:tag="@string/focus_tag" android:nextFocusLeft="@+id/app_listview" android:nextFocusRight="@+id/app_listview" android:nextFocusUp="@+id/app_listview" android:nextFocusDown="@+id/app_listview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View android:background="@drawable/id8_main_top" android:layout_width="491dp" android:layout_height="48dp" android:layout_marginStart="789dp"/>
+</RelativeLayout>

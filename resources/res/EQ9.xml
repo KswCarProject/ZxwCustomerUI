@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+    <CheckBox android:id="@+id/appCheck" android:background="@drawable/pemp_id7_chk_applist" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="14dp" android:layout_height="14dp" android:button="@null"/>
+    <RelativeLayout android:id="@+id/appView" android:background="@drawable/pemp_id7_applist_btn" android:layout_width="68dp" android:layout_height="68dp" android:layout_marginStart="10dp">
+        <ImageView android:id="@+id/appIcon" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="12sp" android:textColor="#fff" android:ellipsize="end" android:gravity="center" android:id="@+id/appLabel" android:layout_width="70dp" android:layout_height="18dp" android:text="app0" android:lines="1" android:layout_below="@+id/appView" android:layout_marginStart="10dp"/>
+</RelativeLayout>

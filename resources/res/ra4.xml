@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.szchoiceway.customerui.drag.DragLinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="87dp" android:layout_marginStart="140dp">
+        <com.szchoiceway.customerui.drag.DragLayout android:gravity="center_horizontal" android:id="@+id/DragItem8" android:layout_width="0dp" android:layout_height="240dp" android:layout_weight="1">
+            <ImageView android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="10dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="36sp" android:textColor="#fff" android:gravity="center_horizontal" android:padding="5dp" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false"/>
+            <ImageView android:id="@+id/Imitate_Focus_select_8" android:background="@drawable/shape_focus_bk1" android:layout_width="200dp" android:layout_height="240dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        </com.szchoiceway.customerui.drag.DragLayout>
+        <com.szchoiceway.customerui.drag.DragLayout android:gravity="center_horizontal" android:id="@+id/DragItem9" android:layout_width="0dp" android:layout_height="240dp" android:layout_weight="1">
+            <ImageView android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="10dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="36sp" android:textColor="#fff" android:gravity="center_horizontal" android:padding="5dp" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false"/>
+            <ImageView android:id="@+id/Imitate_Focus_select_9" android:background="@drawable/shape_focus_bk1" android:layout_width="200dp" android:layout_height="240dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        </com.szchoiceway.customerui.drag.DragLayout>
+        <com.szchoiceway.customerui.drag.DragLayout android:gravity="center_horizontal" android:id="@+id/DragItem10" android:layout_width="0dp" android:layout_height="240dp" android:layout_weight="1">
+            <ImageView android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="10dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="36sp" android:textColor="#fff" android:gravity="center_horizontal" android:padding="5dp" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false"/>
+            <ImageView android:id="@+id/Imitate_Focus_select_10" android:background="@drawable/shape_focus_bk1" android:layout_width="200dp" android:layout_height="240dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        </com.szchoiceway.customerui.drag.DragLayout>
+        <com.szchoiceway.customerui.drag.DragLayout android:gravity="center_horizontal" android:id="@+id/DragItem11" android:layout_width="0dp" android:layout_height="240dp" android:layout_weight="1">
+            <ImageView android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="10dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="36sp" android:textColor="#fff" android:gravity="center_horizontal" android:padding="5dp" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false"/>
+            <ImageView android:id="@+id/Imitate_Focus_select_11" android:background="@drawable/shape_focus_bk1" android:layout_width="200dp" android:layout_height="240dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        </com.szchoiceway.customerui.drag.DragLayout>
+    </com.szchoiceway.customerui.drag.DragLinearLayout>
+    <com.szchoiceway.customerui.drag.DragLinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="408dp" android:layout_marginStart="140dp">
+        <com.szchoiceway.customerui.drag.DragLayout android:gravity="center_horizontal" android:id="@+id/DragItem12" android:layout_width="0dp" android:layout_height="240dp" android:layout_weight="1">
+            <ImageView android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="10dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="36sp" android:textColor="#fff" android:gravity="center_horizontal" android:padding="5dp" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false"/>
+            <ImageView android:id="@+id/Imitate_Focus_select_12" android:background="@drawable/shape_focus_bk1" android:layout_width="200dp" android:layout_height="240dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        </com.szchoiceway.customerui.drag.DragLayout>
+        <com.szchoiceway.customerui.drag.DragLayout android:gravity="center_horizontal" android:id="@+id/DragItem13" android:layout_width="0dp" android:layout_height="240dp" android:layout_weight="1">
+            <ImageView android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="10dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="36sp" android:textColor="#fff" android:gravity="center_horizontal" android:padding="5dp" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false"/>
+            <ImageView android:id="@+id/Imitate_Focus_select_13" android:background="@drawable/shape_focus_bk1" android:layout_width="200dp" android:layout_height="240dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        </com.szchoiceway.customerui.drag.DragLayout>
+        <com.szchoiceway.customerui.drag.DragLayout android:gravity="center_horizontal" android:id="@+id/DragItem14" android:layout_width="0dp" android:layout_height="240dp" android:layout_weight="1">
+            <ImageView android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="10dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="36sp" android:textColor="#fff" android:gravity="center_horizontal" android:padding="5dp" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false"/>
+            <ImageView android:id="@+id/Imitate_Focus_select_14" android:background="@drawable/shape_focus_bk1" android:layout_width="200dp" android:layout_height="240dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        </com.szchoiceway.customerui.drag.DragLayout>
+        <com.szchoiceway.customerui.drag.DragLayout android:gravity="center_horizontal" android:id="@+id/DragItem15" android:layout_width="0dp" android:layout_height="240dp" android:layout_weight="1">
+            <ImageView android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="10dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="36sp" android:textColor="#fff" android:gravity="center_horizontal" android:padding="5dp" android:layout_width="200dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false"/>
+            <ImageView android:id="@+id/Imitate_Focus_select_15" android:background="@drawable/shape_focus_bk1" android:layout_width="200dp" android:layout_height="240dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+        </com.szchoiceway.customerui.drag.DragLayout>
+    </com.szchoiceway.customerui.drag.DragLinearLayout>
+</RelativeLayout>

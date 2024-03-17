@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="1035dp" android:layout_height="381dp" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@+id/view8" android:layout_width="233dp" android:layout_height="185dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.szchoiceway.customerui.views.PressedView android:id="@+id/btnDvr" android:layout_width="match_parent" android:layout_height="match_parent" app:checkedDrawable="@drawable/audi_mib3_main_icon_dvr_sel" app:nullDrawable="@drawable/audi_mib3_main_icon_dvr_n" app:pressedDrawable1="@drawable/audi_mib3_main_icon_dvr_f" app:pressedDrawable2="@drawable/audi_mib3_main_icon_dvr_d" app:selectedDrawable="@drawable/audi_mib3_main_icon_dvr_f"/>
+        <ImageView android:id="@+id/imgDvr" android:background="@drawable/audi_animation_main_dvr" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="38dp" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/audi_mib3_main_icon_dvr" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_dvr" android:lines="1" android:layout_marginStart="16dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/view9" android:layout_width="233dp" android:layout_height="185dp" app:layout_constraintEnd_toStartOf="@+id/viewFile" app:layout_constraintStart_toEndOf="@+id/view8" app:layout_constraintTop_toTopOf="0">
+        <com.szchoiceway.customerui.views.PressedView android:id="@+id/btnDashBoard" android:layout_width="match_parent" android:layout_height="match_parent" app:checkedDrawable="@drawable/audi_mib3_main_icon_dashboard_sel" app:nullDrawable="@drawable/audi_mib3_main_icon_dashboard_n" app:pressedDrawable1="@drawable/audi_mib3_main_icon_dashboard_f" app:pressedDrawable2="@drawable/audi_mib3_main_icon_dashboard_d" app:selectedDrawable="@drawable/audi_mib3_main_icon_dashboard_f"/>
+        <ImageView android:id="@+id/imgDashboard" android:background="@drawable/audi_animation_main_dashboard" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="38dp" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/audi_mib3_main_icon_dashboard" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_dash_board" android:lines="1" android:layout_marginStart="16dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/viewFile" android:layout_width="233dp" android:layout_height="185dp" app:layout_constraintEnd_toStartOf="@+id/view11" app:layout_constraintStart_toEndOf="@+id/view9" app:layout_constraintTop_toTopOf="0">
+        <com.szchoiceway.customerui.views.PressedView android:id="@+id/btnFile" android:layout_width="match_parent" android:layout_height="match_parent" app:checkedDrawable="@drawable/audi_mib3_main_icon_file_sel" app:nullDrawable="@drawable/audi_mib3_main_icon_file_n" app:pressedDrawable1="@drawable/audi_mib3_main_icon_file_sel_f" app:pressedDrawable2="@drawable/audi_mib3_main_icon_file_sel_d" app:selectedDrawable="@drawable/audi_mib3_main_icon_file_sel_f"/>
+        <ImageView android:id="@+id/imgFile" android:background="@drawable/audi_animation_main_file" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="38dp" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/audi_mib3_main_icon_file" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_file" android:lines="1" android:layout_marginStart="16dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/view11" android:layout_width="233dp" android:layout_height="185dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.szchoiceway.customerui.views.PressedView android:id="@+id/btnBrowser" android:layout_width="match_parent" android:layout_height="match_parent" app:checkedDrawable="@drawable/audi_mib3_main_icon_browser_sel" app:nullDrawable="@drawable/audi_mib3_main_icon_browser_n" app:pressedDrawable1="@drawable/audi_mib3_main_icon_browser_f" app:pressedDrawable2="@drawable/audi_mib3_main_icon_browser_d" app:selectedDrawable="@drawable/audi_mib3_main_icon_browser_f"/>
+        <ImageView android:id="@+id/imgBrowser" android:background="@drawable/audi_animation_main_browser" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="38dp" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/audi_mib3_main_icon_browser" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_Browser" android:lines="1" android:layout_marginStart="16dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/view12" android:layout_width="233dp" android:layout_height="185dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0">
+        <com.szchoiceway.customerui.views.PressedView android:id="@+id/btnApps" android:layout_width="match_parent" android:layout_height="match_parent" app:checkedDrawable="@drawable/audi_mib3_main_icon_app_sel" app:nullDrawable="@drawable/audi_mib3_main_icon_app_n" app:pressedDrawable1="@drawable/audi_mib3_main_icon_app_f" app:pressedDrawable2="@drawable/audi_mib3_main_icon_app_d" app:selectedDrawable="@drawable/audi_mib3_main_icon_app_f"/>
+        <ImageView android:id="@+id/imgApps" android:background="@drawable/audi_animation_main_apps" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="38dp" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/audi_mib3_main_icon_app" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_applist" android:lines="1" android:layout_marginStart="16dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

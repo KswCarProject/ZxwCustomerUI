@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:width="400px" android:top="0px" android:bottom="35px">
+        <shape android:shape="rectangle">
+            <solid android:color="#0000"/>
+        </shape>
+    </item>
+    <item android:width="400px" android:bottom="35px">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffff"/>
+            <corners android:radius="3px"/>
+            <size android:height="3px"/>
+        </shape>
+    </item>
+</layer-list>

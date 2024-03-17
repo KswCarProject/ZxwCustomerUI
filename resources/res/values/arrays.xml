@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="MainAppDrawableId">
+        <item>@drawable/imitate_auto_gugeshangdian_n</item>
+        <item>@drawable/imitate_auto_gugeliulanqi_n</item>
+        <item>@drawable/imitate_auto_youtube_n</item>
+    </array>
+    <array name="MainAppId">
+        <item>@id/DragItem0</item>
+        <item>@id/DragItem1</item>
+        <item>@id/DragItem2</item>
+        <item>@id/DragItem3</item>
+        <item>@id/DragItem4</item>
+        <item>@id/DragItem5</item>
+        <item>@id/DragItem6</item>
+        <item>@id/DragItem7</item>
+        <item>@id/DragItem8</item>
+        <item>@id/DragItem9</item>
+        <item>@id/DragItem10</item>
+        <item>@id/DragItem11</item>
+        <item>@id/DragItem12</item>
+        <item>@id/DragItem13</item>
+        <item>@id/DragItem14</item>
+        <item>@id/DragItem15</item>
+    </array>
+    <array name="MainAppTag">
+        <item>@string/lbl_navi_tag</item>
+        <item>@string/lbl_music_tag</item>
+        <item>@string/lbl_video_tag</item>
+        <item>@string/lbl_bluetooth_tag</item>
+        <item>@string/lbl_originalcar_tag</item>
+        <item>@string/lbl_carauto_tag</item>
+        <item>@string/lbl_setting_tag</item>
+        <item>@string/lbl_apps_tag</item>
+        <item>@string/lbl_googleplay_tag</item>
+        <item>@string/lbl_browser_tag</item>
+        <item>@string/lbl_youtube_tag</item>
+        <item>@string/lbl_bluetooth_music_tag</item>
+        <item>@string/lbl_cleartask_tag</item>
+        <item>@string/lbl_frontview_tag</item>
+        <item>@string/lbl_rightview_tag</item>
+        <item>@string/lbl_hdmi_tag</item>
+    </array>
+    <array name="base_pkg_cls_key_regular">
+        <item>com.szchoiceway.virtual.placeholder.map/com.szchoiceway.virtual.placeholder.map</item>
+        <item>com.szchoiceway.select.placeholder.carplay/com.szchoiceway.select.placeholder.carplay</item>
+        <item>com.szchoiceway.musicplayer/com.szchoiceway.musicplayer.MainActivity</item>
+        <item>com.szchoiceway.videoplayer/com.szchoiceway.videoplayer.MainActivity</item>
+        <item>com.szchoiceway.btsuite/com.szchoiceway.btsuite.BTMainActivity</item>
+        <item>com.szchoiceway.btsuite/com.szchoiceway.btsuite.BTMusicActivity</item>
+        <item>com.szchoiceway.radio/com.szchoiceway.radio.MainActivity</item>
+        <item>com.choiceway.dsp/com.choiceway.dsp.MainActivity</item>
+        <item>com.szchoiceway.settings/com.szchoiceway.settings.MainActivity</item>
+        <item>com.szchoiceway.customerui/com.szchoiceway.customerui.applist</item>
+        <item>com.szchoiceway.virtual.placeholder.add.remove/com.szchoiceway.virtual.placeholder.add.remove</item>
+        <item>com.choiceway.weather/com.choiceway.weather.MainActivity</item>
+        <item>com.choiceway.weather/com.choiceway.weather.UIActivity</item>
+    </array>
+</resources>

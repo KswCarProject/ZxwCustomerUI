@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="1" android:versionName="1.02024-03-12:10-30" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.szchoiceway.customerui" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application android:theme="@style/Theme2" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.szchoiceway.widget.base.BaseApp" android:allowBackup="true" android:supportsRtl="true" android:extractNativeLibs="false" android:resizeableActivity="false" android:roundIcon="@mipmap/ic_launcher_round" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity android:name="com.szchoiceway.customerui.MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.szchoiceway.widget.service.MService"/>
+        <receiver android:label="Weather" android:name="com.szchoiceway.widget.WeatherWidget" android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_weather"/>
+        </receiver>
+        <receiver android:label="Player" android:name="com.szchoiceway.widget.PlayerWidget" android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_player"/>
+        </receiver>
+        <activity android:name="com.szchoiceway.customerui.bmw.ui.VideoActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="locale|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale"/>
+        <service android:name="com.szchoiceway.customerui.bmw.services.VirtualDisplayService" android:enabled="true" android:exported="true"/>
+        <service android:name="com.szchoiceway.customerui.service.MediaNotificationService" android:exported="true" android:foregroundServiceType="3f"/>
+    </application>
+</manifest>

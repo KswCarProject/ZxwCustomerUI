@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <ImageView android:id="@+id/left_icon_iv" android:layout_width="41.6dp" android:layout_height="61.6dp" android:layout_marginTop="136dp" android:src="@drawable/ksw_mbux_1024x600_main_left" android:layout_marginStart="17.6dp"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.szchoiceway.customerui.fragment.launcher.ksw.mbux_1024.view.KswMbux1024HdVideoLauncherIconView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.szchoiceway.customerui.fragment.launcher.ksw.mbux_1024.view.KswMbux1024AppLauncherIconView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.szchoiceway.customerui.fragment.launcher.ksw.mbux_1024.view.KswMbux1024SettingsLauncherIconView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <ImageView android:id="@+id/right_icon_iv" android:layout_width="41.6dp" android:layout_height="61.6dp" android:layout_marginTop="136dp" android:src="@drawable/ksw_mbux_1024x600_main_right" android:layout_marginEnd="17.6dp"/>
+</LinearLayout>

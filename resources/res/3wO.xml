@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="@drawable/gt6_audi_yuanche" android:maxLevel="1"/>
+    <item android:drawable="@drawable/gt6_audi_zuozhuan" android:maxLevel="2"/>
+    <item android:drawable="@drawable/gt6_audi_youzhuan" android:maxLevel="3"/>
+    <item android:drawable="@drawable/gt6_audi_zuoqian" android:maxLevel="4"/>
+    <item android:drawable="@drawable/gt6_audi_youqian" android:maxLevel="5"/>
+    <item android:drawable="@drawable/gt6_audi_zuohou" android:maxLevel="6"/>
+    <item android:drawable="@drawable/gt6_audi_youhou" android:maxLevel="7"/>
+    <item android:drawable="@drawable/gt6_audi_zuodiaotou" android:maxLevel="8"/>
+    <item android:drawable="@drawable/gt6_audi_zhixing" android:maxLevel="9"/>
+    <item android:drawable="@drawable/gt6_audi_tujingdi" android:maxLevel="10"/>
+    <item android:drawable="@drawable/gt6_audi_jinruhuandao" android:maxLevel="11"/>
+    <item android:drawable="@drawable/gt6_audi_likaihuandao" android:maxLevel="12"/>
+    <item android:drawable="@drawable/gt6_audi_fuwuqu" android:maxLevel="13"/>
+    <item android:drawable="@drawable/gt6_audi_shoufeizhan" android:maxLevel="14"/>
+    <item android:drawable="@drawable/gt6_audi_mudidi" android:maxLevel="15"/>
+    <item android:drawable="@drawable/gt6_audi_jinrusuidao" android:maxLevel="16"/>
+    <item android:drawable="@drawable/gt6_audi_zuojinruhuandao" android:maxLevel="17"/>
+    <item android:drawable="@drawable/gt6_audi_zuolikaihuandao" android:maxLevel="18"/>
+    <item android:drawable="@drawable/gt6_audi_youdiaotou" android:maxLevel="19"/>
+    <item android:drawable="@drawable/gt6_audi_shunxing" android:maxLevel="20"/>
+</level-list>

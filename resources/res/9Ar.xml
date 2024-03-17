@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="@drawable/gt6_audi_a4" android:maxLevel="1"/>
+    <item android:drawable="@drawable/gt6_audi_a4_old" android:maxLevel="2"/>
+    <item android:drawable="@drawable/gt6_audi_a4l" android:maxLevel="3"/>
+    <item android:drawable="@drawable/gt6_audi_a3" android:maxLevel="4"/>
+    <item android:drawable="@drawable/gt6_audi_a5" android:maxLevel="5"/>
+    <item android:drawable="@drawable/gt6_audi_a6" android:maxLevel="6"/>
+    <item android:drawable="@drawable/gt6_audi_q3" android:maxLevel="7"/>
+    <item android:drawable="@drawable/gt6_audi_q5" android:maxLevel="8"/>
+    <item android:drawable="@drawable/gt6_audi_q7" android:maxLevel="9"/>
+</level-list>

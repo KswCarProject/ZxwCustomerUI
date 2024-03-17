@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_main_icon_app_1_f_1560x700"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_main_icon_app_2_f_1560x700"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_main_icon_app_3_f_1560x700"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_main_icon_app_4_f_1560x700"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_main_icon_app_5_f_1560x700"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_main_icon_app_6_f_1560x700"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_main_icon_app_7_f_1560x700"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_main_icon_app_8_f_1560x700"/>
+    <item android:duration="100" android:drawable="@drawable/audi_mib3_main_icon_app_9_f_1560x700"/>
+</animation-list>

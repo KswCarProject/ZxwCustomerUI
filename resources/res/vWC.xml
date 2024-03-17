@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="@drawable/landrover_main_top_icon_4g" android:maxLevel="0"/>
+    <item android:drawable="@drawable/landrover_main_top_icon_4g1" android:maxLevel="1"/>
+    <item android:drawable="@drawable/landrover_main_top_icon_4g2" android:maxLevel="2"/>
+    <item android:drawable="@drawable/landrover_main_top_icon_4g3" android:maxLevel="3"/>
+    <item android:drawable="@drawable/landrover_main_top_icon_4g4" android:maxLevel="4"/>
+    <item android:drawable="@drawable/landrover_main_top_icon_4g5" android:maxLevel="5"/>
+</level-list>

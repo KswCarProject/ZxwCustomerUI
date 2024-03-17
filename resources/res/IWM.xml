@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="@drawable/daohang_diguang" android:maxLevel="1"/>
+    <item android:drawable="@drawable/yuanchediguang" android:maxLevel="2"/>
+    <item android:drawable="@drawable/daohang_diguang" android:maxLevel="3"/>
+    <item android:drawable="@drawable/shipin_diguang" android:maxLevel="4"/>
+    <item android:drawable="@drawable/waibushuru_diguang" android:maxLevel="5"/>
+    <item android:drawable="@drawable/yinyue_diguang" android:maxLevel="6"/>
+    <item android:drawable="@drawable/shoujihulian_diguang" android:maxLevel="7"/>
+    <item android:drawable="@drawable/lanya_diguang" android:maxLevel="8"/>
+    <item android:drawable="@drawable/jiluyi_diguang" android:maxLevel="9"/>
+    <item android:drawable="@drawable/shezhi_diguang" android:maxLevel="10"/>
+</level-list>
